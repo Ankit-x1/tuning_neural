@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "tuning_neural",
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
